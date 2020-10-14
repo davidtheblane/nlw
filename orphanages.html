@@ -5,20 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Localize um orfanato | Happy</title>
 
-    <!-- MAPA-->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      <!-- INICIO MAPA -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-      crossorigin=""
-    />
-
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-      crossorigin=""
-    ></script>
+      crossorigin=""/>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script>
+    
     <!--FIM MAPA-->
 
     <link rel="icon" href="./public/images/logo-icon.png" />
@@ -31,7 +26,7 @@
     <!-- END CSS -->
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -52,7 +47,7 @@
           <p>São Paulo</p>
         </footer>
       </aside>
-      <div id="mapid"></div>
+      <div id="mapid" class="animate-appear"></div>
       <a
         href="create-orphanage.html"
         class="create-orphanage"
@@ -62,6 +57,6 @@
       </a>
     </div>
 
-    <script scr="./public/scripts/page-orphanages.js"></script>
+    <script src="./public/scripts/page-orphanages.js"></script>
   </body>
 </html>
