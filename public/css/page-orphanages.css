@@ -30,9 +30,14 @@ aside footer p {
     margin-top: .8rem;
 }
 
+
+#mapid { 
+    width: 100%;
+    height: 100%; 
+    }
+
+
 /* BUTTON   */
-
-
 
 a.create-orphanage {
     position: absolute;
